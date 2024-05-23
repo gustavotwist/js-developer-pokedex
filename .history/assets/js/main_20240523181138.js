@@ -1,9 +1,9 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
-const maxRecords = 493
-const limit = 8
-let offset = 386;
+const maxRecords = 491
+const limit = 10
+let offset = 385;
 
 function convertPokemonToLi(pokemon) {
     return `
